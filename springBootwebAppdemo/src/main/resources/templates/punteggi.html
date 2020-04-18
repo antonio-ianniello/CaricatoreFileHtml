@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:th="http://www.thymeleaf.org"
+	xmlns="http://www.w3.org/1999/html">
+<head>
+<meta charset="UTF-8">
+<title>Contatti Lista SpringBoot esempio Tymeleaf</title>
+</head>
+<body bgcolor="#8fbc8f">
+
+	<h1 align="center">DATI STUDENTE</h1>
+	<table align="center" border="1"  cellpadding="20" width="75%">
+
+		<tr>
+			<th>matricola</th>
+			<th>Nome</th>
+			<th>Cognome</th>
+			<th>email</th>
+
+
+		</tr>
+		<tr>
+			<td th:text="${StudenteForm.matricola}"></td>
+			<td th:text="${StudenteForm.nome}"></td>
+			<td th:text="${StudenteForm.cognome}"></td>
+			<td th:text="${StudenteForm.email}"></td>
+			<!-- 
+	<td th:text="${studente.file">File</td>
+ -->
+		</tr>
+	</table>
+	<br>
+	<h1 align="center"><a href="/home">HOMEPAGE</a></h1>
+</body>
+</html>
