@@ -7,29 +7,28 @@
 </head>
 <body bgcolor="#8fbc8f">
 
-	<h1 align="center">DATI STUDENTE</h1>
-	<table align="center" border="1" cellpadding="20" width="75%">
 
-		<tr>
-			<th>matricola</th>
-			<th>Nome</th>
-			<th>Cognome</th>
-			<th>email</th>
-
-
-		</tr>
-		<tr>
-			<td th:text="${StudenteForm.matricola}"></td>
-			<td th:text="${StudenteForm.nome}"></td>
-			<td th:text="${StudenteForm.cognome}"></td>
-			<td th:text="${StudenteForm.email}"></td>
-			<!-- 
-	<td th:text="${studente.file">File</td>
- -->
-		</tr>
-	</table>
 	<br>
 	<h1 align="center">CARICA FILE</h1>
+	<h1 align="center">DATI STUDENTE</h1>
+		<table align="center" border="1" cellpadding="20" width="75%">
+
+			<tr>
+				<th>matricola</th>
+				<th>Nome</th>
+				<th>Cognome</th>
+				<th>email</th>
+
+
+			</tr>
+			<tr>
+				<td th:text="${StudenteForm.matricola}"></td>
+				<td th:text="${StudenteForm.nome}"></td>
+				<td th:text="${StudenteForm.cognome}"></td>
+				<td th:text="${StudenteForm.email}"></td>
+
+			</tr>
+		</table>
 	<form action="#" th:action="@{/inserisciFile}" method="post"
 		enctype="multipart/form-data">
 
