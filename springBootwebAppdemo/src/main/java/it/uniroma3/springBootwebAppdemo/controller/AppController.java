@@ -68,6 +68,11 @@ public class AppController {
 		model.addAttribute("msg","upload corretto del seguente file:"+fileNames.toString());
 	    return "uploadView";
 	  }
+	
+	@PostMapping("/risultato")
+	public String  Risultato() {
+		return "risultatoFinale";
+	}
 
 	
 
