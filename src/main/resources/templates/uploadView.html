@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:th="http://www.thymeleaf.org"
+	xmlns="http://www.w3.org/1999/html">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor=#8fbc8f>
+	<h1 align="center"> STATO CONSEGNA HOMEWORK</h1>
+
+<div align="center" th:if="${msg}">
+<span th:text="${msg}"></span>
+</div>
+<div>
+<h1 align="center">ATTENDERE IL TERMINE DELL' ELABORAZIONE...</h1>
+</div>
+<div>
+<form action="#" th:action="@{/risultato}"  method="post">
+<div align="center"><button style="align-self: center;" type="submit">MOSTRA RISULTATO</button></div>
+</form>
+<h4 align="center"><a href="/home">HOMEPAGE</a></h4>
+
+</div>
+
+</body>
+</html>
