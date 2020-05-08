@@ -96,7 +96,7 @@ formatter.match({
   "location": "StepDefinition.ho_iniziato_la_partita()"
 });
 formatter.result({
-  "duration": 240603300,
+  "duration": 122117200,
   "status": "passed"
 });
 formatter.match({
@@ -109,7 +109,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 3704700,
+  "duration": 1302200,
   "status": "passed"
 });
 formatter.match({
@@ -122,7 +122,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 84400,
+  "duration": 29300,
   "status": "passed"
 });
 formatter.match({
@@ -135,14 +135,14 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 76000,
+  "duration": 25100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.la_partita_e_finita()"
 });
 formatter.result({
-  "duration": 5724200,
+  "duration": 2055700,
   "status": "passed"
 });
 formatter.match({
@@ -159,7 +159,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 3102000,
+  "duration": 1473900,
   "status": "passed"
 });
 formatter.match({
@@ -176,7 +176,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 150100,
+  "duration": 72800,
   "status": "passed"
 });
 formatter.match({
@@ -193,7 +193,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 135700,
+  "duration": 57100,
   "status": "passed"
 });
 formatter.match({
@@ -210,7 +210,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 287200,
+  "duration": 75700,
   "status": "passed"
 });
 formatter.match({
@@ -227,7 +227,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 370300,
+  "duration": 53100,
   "status": "passed"
 });
 formatter.match({
@@ -244,7 +244,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 202500,
+  "duration": 54700,
   "status": "passed"
 });
 formatter.match({
@@ -257,7 +257,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato1(String)"
 });
 formatter.result({
-  "duration": 433400,
+  "duration": 127200,
   "status": "passed"
 });
 formatter.scenario({
@@ -303,7 +303,7 @@ formatter.match({
   "location": "StepDefinition.ho_iniziato_la_partita()"
 });
 formatter.result({
-  "duration": 118400,
+  "duration": 70200,
   "status": "passed"
 });
 formatter.match({
@@ -316,7 +316,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 170800,
+  "duration": 33900,
   "status": "passed"
 });
 formatter.match({
@@ -329,14 +329,14 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 144500,
+  "duration": 51500,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.la_partita_e_finita()"
 });
 formatter.result({
-  "duration": 432800,
+  "duration": 143100,
   "status": "passed"
 });
 formatter.match({
@@ -349,7 +349,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato1(String)"
 });
 formatter.result({
-  "duration": 791300,
+  "duration": 111900,
   "status": "passed"
 });
 formatter.scenario({
@@ -405,7 +405,7 @@ formatter.match({
   "location": "StepDefinition.ho_iniziato_la_partita()"
 });
 formatter.result({
-  "duration": 99900,
+  "duration": 25500,
   "status": "passed"
 });
 formatter.match({
@@ -418,7 +418,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 140700,
+  "duration": 36500,
   "status": "passed"
 });
 formatter.match({
@@ -431,7 +431,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 185000,
+  "duration": 27300,
   "status": "passed"
 });
 formatter.match({
@@ -444,14 +444,14 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 154500,
+  "duration": 25500,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.la_partita_e_finita()"
 });
 formatter.result({
-  "duration": 1337600,
+  "duration": 380200,
   "status": "passed"
 });
 formatter.match({
@@ -468,7 +468,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 327100,
+  "duration": 67700,
   "status": "passed"
 });
 formatter.match({
@@ -481,7 +481,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato1(String)"
 });
 formatter.result({
-  "duration": 792100,
+  "duration": 99700,
   "status": "passed"
 });
 formatter.scenario({
@@ -537,7 +537,7 @@ formatter.match({
   "location": "StepDefinition.ho_iniziato_la_partita()"
 });
 formatter.result({
-  "duration": 122600,
+  "duration": 34100,
   "status": "passed"
 });
 formatter.match({
@@ -550,7 +550,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 237900,
+  "duration": 47900,
   "status": "passed"
 });
 formatter.match({
@@ -563,7 +563,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 184600,
+  "duration": 27400,
   "status": "passed"
 });
 formatter.match({
@@ -576,14 +576,14 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 130500,
+  "duration": 24900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.la_partita_e_finita()"
 });
 formatter.result({
-  "duration": 1943800,
+  "duration": 283400,
   "status": "passed"
 });
 formatter.match({
@@ -600,7 +600,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 242800,
+  "duration": 62400,
   "status": "passed"
 });
 formatter.match({
@@ -613,7 +613,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato1(String)"
 });
 formatter.result({
-  "duration": 885700,
+  "duration": 172700,
   "status": "passed"
 });
 formatter.scenario({
@@ -669,7 +669,7 @@ formatter.match({
   "location": "StepDefinition.ho_iniziato_la_partita()"
 });
 formatter.result({
-  "duration": 117900,
+  "duration": 38800,
   "status": "passed"
 });
 formatter.match({
@@ -682,7 +682,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 161600,
+  "duration": 34500,
   "status": "passed"
 });
 formatter.match({
@@ -695,7 +695,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 148500,
+  "duration": 32100,
   "status": "passed"
 });
 formatter.match({
@@ -708,14 +708,14 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 121000,
+  "duration": 33200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.la_partita_e_finita()"
 });
 formatter.result({
-  "duration": 727000,
+  "duration": 161200,
   "status": "passed"
 });
 formatter.match({
@@ -732,7 +732,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 315700,
+  "duration": 99400,
   "status": "passed"
 });
 formatter.match({
@@ -745,7 +745,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato1(String)"
 });
 formatter.result({
-  "duration": 387700,
+  "duration": 98700,
   "status": "passed"
 });
 formatter.scenario({
@@ -816,7 +816,7 @@ formatter.match({
   "location": "StepDefinition.ho_iniziato_la_partita()"
 });
 formatter.result({
-  "duration": 82100,
+  "duration": 30800,
   "status": "passed"
 });
 formatter.match({
@@ -829,7 +829,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 128900,
+  "duration": 94500,
   "status": "passed"
 });
 formatter.match({
@@ -842,7 +842,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 89800,
+  "duration": 40900,
   "status": "passed"
 });
 formatter.match({
@@ -855,7 +855,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 98400,
+  "duration": 37100,
   "status": "passed"
 });
 formatter.match({
@@ -868,7 +868,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 100100,
+  "duration": 33500,
   "status": "passed"
 });
 formatter.match({
@@ -881,14 +881,14 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 80600,
+  "duration": 26000,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.la_partita_e_finita()"
 });
 formatter.result({
-  "duration": 881000,
+  "duration": 261000,
   "status": "passed"
 });
 formatter.match({
@@ -905,7 +905,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 317300,
+  "duration": 65700,
   "status": "passed"
 });
 formatter.match({
@@ -922,7 +922,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 186700,
+  "duration": 49500,
   "status": "passed"
 });
 formatter.match({
@@ -935,7 +935,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato1(String)"
 });
 formatter.result({
-  "duration": 515300,
+  "duration": 94300,
   "status": "passed"
 });
 formatter.scenario({
@@ -1021,7 +1021,7 @@ formatter.match({
   "location": "StepDefinition.ho_iniziato_la_partita()"
 });
 formatter.result({
-  "duration": 80500,
+  "duration": 24200,
   "status": "passed"
 });
 formatter.match({
@@ -1034,7 +1034,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 98500,
+  "duration": 38300,
   "status": "passed"
 });
 formatter.match({
@@ -1047,7 +1047,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 72000,
+  "duration": 23700,
   "status": "passed"
 });
 formatter.match({
@@ -1060,7 +1060,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 96900,
+  "duration": 27400,
   "status": "passed"
 });
 formatter.match({
@@ -1073,7 +1073,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 96300,
+  "duration": 23800,
   "status": "passed"
 });
 formatter.match({
@@ -1086,7 +1086,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 77300,
+  "duration": 25200,
   "status": "passed"
 });
 formatter.match({
@@ -1099,7 +1099,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 111100,
+  "duration": 24200,
   "status": "passed"
 });
 formatter.match({
@@ -1112,14 +1112,14 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 1227600,
+  "duration": 266500,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.la_partita_e_finita()"
 });
 formatter.result({
-  "duration": 1557000,
+  "duration": 310200,
   "status": "passed"
 });
 formatter.match({
@@ -1136,7 +1136,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 233800,
+  "duration": 90700,
   "status": "passed"
 });
 formatter.match({
@@ -1153,7 +1153,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 209600,
+  "duration": 80000,
   "status": "passed"
 });
 formatter.match({
@@ -1170,7 +1170,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 174200,
+  "duration": 71200,
   "status": "passed"
 });
 formatter.match({
@@ -1183,7 +1183,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato1(String)"
 });
 formatter.result({
-  "duration": 412300,
+  "duration": 138400,
   "status": "passed"
 });
 formatter.scenario({
@@ -1304,7 +1304,7 @@ formatter.match({
   "location": "StepDefinition.ho_iniziato_la_partita()"
 });
 formatter.result({
-  "duration": 83800,
+  "duration": 33500,
   "status": "passed"
 });
 formatter.match({
@@ -1317,7 +1317,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 149800,
+  "duration": 41900,
   "status": "passed"
 });
 formatter.match({
@@ -1330,7 +1330,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 94400,
+  "duration": 28700,
   "status": "passed"
 });
 formatter.match({
@@ -1343,7 +1343,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 88900,
+  "duration": 29300,
   "status": "passed"
 });
 formatter.match({
@@ -1356,7 +1356,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 67100,
+  "duration": 23900,
   "status": "passed"
 });
 formatter.match({
@@ -1369,7 +1369,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 62200,
+  "duration": 23600,
   "status": "passed"
 });
 formatter.match({
@@ -1382,7 +1382,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 74400,
+  "duration": 22800,
   "status": "passed"
 });
 formatter.match({
@@ -1395,7 +1395,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 85800,
+  "duration": 29100,
   "status": "passed"
 });
 formatter.match({
@@ -1408,7 +1408,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 66700,
+  "duration": 23500,
   "status": "passed"
 });
 formatter.match({
@@ -1421,7 +1421,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 63300,
+  "duration": 23300,
   "status": "passed"
 });
 formatter.match({
@@ -1434,7 +1434,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 65800,
+  "duration": 24500,
   "status": "passed"
 });
 formatter.match({
@@ -1447,14 +1447,14 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 60200,
+  "duration": 26900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.la_partita_e_finita()"
 });
 formatter.result({
-  "duration": 1264800,
+  "duration": 519500,
   "status": "passed"
 });
 formatter.match({
@@ -1471,7 +1471,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 174100,
+  "duration": 62700,
   "status": "passed"
 });
 formatter.match({
@@ -1488,7 +1488,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 786900,
+  "duration": 298300,
   "status": "passed"
 });
 formatter.match({
@@ -1505,7 +1505,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 202500,
+  "duration": 58100,
   "status": "passed"
 });
 formatter.match({
@@ -1522,7 +1522,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 151500,
+  "duration": 72800,
   "status": "passed"
 });
 formatter.match({
@@ -1539,7 +1539,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 188700,
+  "duration": 71100,
   "status": "passed"
 });
 formatter.match({
@@ -1556,7 +1556,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 204500,
+  "duration": 69600,
   "status": "passed"
 });
 formatter.match({
@@ -1569,7 +1569,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato1(String)"
 });
 formatter.result({
-  "duration": 1259500,
+  "duration": 155400,
   "status": "passed"
 });
 formatter.scenario({
@@ -1655,7 +1655,7 @@ formatter.match({
   "location": "StepDefinition.ho_iniziato_la_partita()"
 });
 formatter.result({
-  "duration": 126300,
+  "duration": 34200,
   "status": "passed"
 });
 formatter.match({
@@ -1668,7 +1668,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 110000,
+  "duration": 39000,
   "status": "passed"
 });
 formatter.match({
@@ -1681,7 +1681,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 880400,
+  "duration": 299200,
   "status": "passed"
 });
 formatter.match({
@@ -1694,7 +1694,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 118900,
+  "duration": 40600,
   "status": "passed"
 });
 formatter.match({
@@ -1707,7 +1707,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 114600,
+  "duration": 35100,
   "status": "passed"
 });
 formatter.match({
@@ -1720,7 +1720,7 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 93600,
+  "duration": 36000,
   "status": "passed"
 });
 formatter.match({
@@ -1733,7 +1733,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato(String)"
 });
 formatter.result({
-  "duration": 145000,
+  "duration": 29200,
   "status": "passed"
 });
 formatter.match({
@@ -1746,14 +1746,14 @@ formatter.match({
   "location": "StepDefinition.ho_digitato(String)"
 });
 formatter.result({
-  "duration": 100900,
+  "duration": 25200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.la_partita_e_finita()"
 });
 formatter.result({
-  "duration": 1422900,
+  "duration": 367600,
   "status": "passed"
 });
 formatter.match({
@@ -1770,7 +1770,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 233400,
+  "duration": 59300,
   "status": "passed"
 });
 formatter.match({
@@ -1787,7 +1787,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 177000,
+  "duration": 52000,
   "status": "passed"
 });
 formatter.match({
@@ -1804,7 +1804,7 @@ formatter.match({
   "location": "StepDefinition.la_riga_ha_stampato(int,String)"
 });
 formatter.result({
-  "duration": 164200,
+  "duration": 48600,
   "status": "passed"
 });
 formatter.match({
@@ -1817,7 +1817,7 @@ formatter.match({
   "location": "StepDefinition.il_programma_ha_stampato1(String)"
 });
 formatter.result({
-  "duration": 418700,
+  "duration": 209700,
   "status": "passed"
 });
 });
