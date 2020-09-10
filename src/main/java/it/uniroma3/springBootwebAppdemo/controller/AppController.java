@@ -1,10 +1,6 @@
 package it.uniroma3.springBootwebAppdemo.controller;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -75,6 +71,14 @@ public class AppController {
 
 	@PostMapping("/risultato")
 	public String  Risultato() throws IOException {
+		ProcessBuilder processBuilder = new ProcessBuilder();
+		//processBuilder.command("bash","-c","./automatico.sh");
+		processBuilder.command("~/automatico.sh");
+		
+		System.out.println("Inizio processo\n");
+		//Process process = processBuilder.start();
+		
+		
 		return "risultatoFinale";
 	}
 }
