@@ -1,0 +1,43 @@
+
+RIASSUNTO SITUAZIONE TIROCINIO:
+------------------------------------------------------------------------------------------------
+come si lanciano gli script?   dalla cartella home in linux  ovvero ~
+dove si trovano i file di maven generati?     ~/.m2/repository/it/uniroma3/due cartelle dei progetti
+
+-------------------------------------------------------------------------------------------------
+Abbiamo 2 progetti, uno WEB "CaricatoreFileHmtl" e uno con i codici di testing,ovvero il "Tester" che invece si occupa di testare il codice degli studenti, il quale viene inviato tramite la piattaforma web.
+
+Inoltre ho creato due script distinti, si chiamano "installaWebApp.sh" ed "automatico.sh".
+--------------------------------------------------------------------------------------------------
+SCRIPT installaWebApp:
+
+#!/bin/bash
+
+mvn install -f ~/git/CaricatoreFileHtml/pom.xml;
+cp -r ~/git/CaricatoreFileHtml/static ~/.m2/repository/it/uniroma3/springBootwebAppdemo/0.0.1-SNAPSHOT/;
+cp -r ~/git/CaricatoreFileHtml/templates ~/.m2/repository/it/uniroma3/springBootwebAppdemo/0.0.1-SNAPSHOT/;
+echo avvio applicazione;
+cd ~/.m2/repository/it/uniroma3/springBootwebAppdemo/0.0.1-SNAPSHOT/;
+java -jar springBootwebAppdemo-0.0.1-SNAPSHOT.jar;
+
+Questo primo script serve ad avviare la webApp sul pc.
+
+----------------------------------------------------------------------------------------------------
+SCRIPT automatico.sh
+
+#!/bin/bash
+
+mvn install -f ~/git/Tester/pom.xml;
+mvn -e install:install-file -Dfile=.m2/repository/it/uniroma3/springBootwebAppdemo/0.0.1-SNAPSHOT/uploads/prova.jar -DgroupId=it.uniroma3 -DartifactId=Tester -Dversion=0.1 -Dpackaging=jar;
+mvn install -f ~/git/Tester/pom.xml;
+echo mancaLaCopiaDelRisultatoNelFileCorretto;
+cp ~/Scrivania/reportRis.js ~/.m2/repository/it/uniroma3/springBootwebAppdemo/0.0.1-SNAPSHOT/static/js/report.js;
+
+
+questo secondo script serve per avviare il tester[che deve essere avviato tramite chiamata REST],
+inoltre installa il pacchetto jar dello studente che avrà inviato tramite web.
+
+QUI si presenta uno dei due problemi, ovvero quando vado a copiare il report generato. Nello script ho messo
+uno sulla Scrivania del pc per fare il test[e funziona], ma non posso prenderlo dalla posizione che effettivamente contiene il file. Nello specifico nel progetto maven non visualizzo il report di cucumber,nel quale è contenuto il file che mi serve "report.js". Se il file report.js si potesse vedere all' esterno del progetto sarebbe risolto il problema.
+
+-------------------------------------------------------------------------------------------------------
