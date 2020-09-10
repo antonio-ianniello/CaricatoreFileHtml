@@ -75,7 +75,7 @@ public class AppController {
 		//processBuilder.command("bash","-c","./automatico.sh");
 		processBuilder.command("~/automatico.sh");
 		
-		System.out.println("Inizio processo\n");
+		System.out.println("Inizio processo \n");
 		//Process process = processBuilder.start();
 		
 		
